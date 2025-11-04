@@ -66,8 +66,8 @@ Verify the generated waveform using Tabulation and Model Waveform
 
 # Program
 ```
-Ac=33.6;
-fc=20160;
+Ac=43.2;
+fc=21600;
 Am=21.6;
 fm=2160;
 fs=50000;
@@ -90,29 +90,23 @@ subplot(3,1,3);
 plot(t,Efm);
 xlabel("Time(s)");
 ylabel("Amplitude");
-title("FM Modulated Signal (USB)");
+title("FM Modulated Signal");
 ```
 
 # Output Waveform
-<img width="761" height="575" alt="image" src="https://github.com/user-attachments/assets/2b874675-7227-45ed-8c2a-ab0f0317d34e" />
-
-
+![WhatsApp Image 2025-11-04 at 18 30 08_2a4dcd6e](https://github.com/user-attachments/assets/26ce51e7-f8fb-4da1-9443-36fdf2611618)
 
 # Tabulation
-![WhatsApp Image 2025-09-30 at 08 23 57_8f33eb94](https://github.com/user-attachments/assets/be71e7b7-16d0-48e6-bc8c-63dae4e253a7)
-
-
+![WhatsApp Image 2025-11-04 at 20 47 43_5a5099e0](https://github.com/user-attachments/assets/e81c4f00-e273-40be-b7c1-2350ce68b7fa)
 
 # Calculation
-![WhatsApp Image 2025-09-30 at 08 24 07_d183b744](https://github.com/user-attachments/assets/215600c0-5d41-403e-9453-2005d2ae9fc4)
+![WhatsApp Image 2025-11-04 at 20 48 05_f865e9cc](https://github.com/user-attachments/assets/d7576bc1-675c-4c1b-9772-425155a64e6f)
 
+Frequency Deviation Practical = 1600
 
+Modulation Index Practical	= 0.815
 
-Frequency Deviation Practical = 3493.3334
-
-Modulation Index Practical	= 0.516
-
-Modulation Index Theoretical	=0.6428
+Modulation Index Theoretical	=0.5
 
 
 
