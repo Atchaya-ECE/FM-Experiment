@@ -6,14 +6,11 @@
 # AIM:
 To write a program for Frequency Modulation and Demodulation using SCILAB and to observe and measure the frequency deviation and the modulation index of FM.
 
-
 # EQUIPMENTS REQUIRED
-
 •	Computer with i3 Processor
 •	SCI LAB
 
 # THEORY:
-
 Frequency modulation is a type of modulation in which the frequency of the high frequency (carrier) is varied in accordance with the instantaneous value of the modulating signal.
 FREQUENCY DEVIATION f and MODULATION INDEX m f :
 The frequency deviation f represents the maximum shift between the  modulatedsignal
@@ -22,9 +19,9 @@ frequency, over and under the frequency of the carrier.
 We define modulation index m f the ratio between f and the modulating frequency
 m= f / fm
 
-
 # FREQUENCY MODULATION GENERATION:
 The circuits used to generate a frequency modulation must vary the frequency of a high frequency signal (carrier) as function of the amplitude of a low frequency signal (modulating signal). In practice there are two main methods used to generate FM.
+
 # Algorithm
 1.	Define Parameters:
 •	Fs: Sampling frequency.
@@ -38,7 +35,6 @@ The circuits used to generate a frequency modulation must vary the frequency of 
 •	Modulated signal: FM modulated signal calculated by varying the carrier frequency according to the modulating signal.
 3.	FM Modulation:
 •	Modulated signal is obtained by modulating the carrier signal with the modulating signal.
- 
 4.	FM Demodulation:
 •	Differentiation: Computes the derivative of the modulated signal to extract frequency variations.
 •	Envelope Detection: Takes the absolute value to retrieve the envelope of the signal.
@@ -46,11 +42,7 @@ The circuits used to generate a frequency modulation must vary the frequency of 
 5.	Visualization:
 •	Plots the modulating signal, carrier signal, FM modulated signal, and demodulated signal for analysis.
 
-
-
 # PROCEDURE
-
-
 •	Refer Algorithms and write code for the experiment.
 •	Open SCILAB in System
 •	Type your code in New Editor
@@ -60,9 +52,7 @@ The circuits used to generate a frequency modulation must vary the frequency of 
 Verify the generated waveform using Tabulation and Model Waveform
 
 # MODEL GRAPH:
-
-<img width="512" height="365" alt="image" src="https://github.com/user-attachments/assets/acd787bd-5281-4f1b-802f-1aa39fac9189" />
-
+   <img width="817" height="591" alt="image" src="https://github.com/user-attachments/assets/9808e87f-7550-491e-8588-23bdd9bea02e" />
 
 # Program
 ```
@@ -107,8 +97,6 @@ Frequency Deviation Practical = 1600
 Modulation Index Practical	= 0.815
 
 Modulation Index Theoretical	=0.5
-
-
 
 # RESULT:
 
